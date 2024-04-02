@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTskof8nikUH-D1FCBX22Gov9pbXI3Mlc5MGs0EsZS9Ns_ifUSuttVCNbL_-iJfUP6iYBs&usqp=CAU);
+}
+img{
+    width: 100%;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 100px 10px;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.wrapper > div{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid brown;
+    height: 350px;
+    background-color: brown;
+
+}
